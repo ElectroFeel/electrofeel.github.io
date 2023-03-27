@@ -218,8 +218,9 @@ function nextBtnOn() {
         console.log(imgSelector.src);
         // roll quests
         if (questionNumber < 16) {
-            randomizeQuestions(arrQuests[questionNumber]);
+                randomizeQuestions(arrQuests[questionNumber]);
             } else {
+                document.querySelector('.modal-end').style.display = 'block';
             };
             console.log(questionNumber);
         });
@@ -235,7 +236,7 @@ function closeModalWindow() {
 
 // *********************************** Code Start Here ************************************ //
 imgSelector.classList.add('blur');
-
+document.querySelector('.modal-end').style.display = 'none';
 
 
 //Нажата кнопка "Набор номер 1"

@@ -81,6 +81,21 @@
   background-image: url("images/modal-background.jpg");
 }
 
+.modal-end {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 8%;
+  top: 7%;
+  width: 85%;
+  height:68%;
+  background-image: url("images/modal-end-background.jpg");
+  background-position-x: 70%;
+  background-position-y: 10%;
+  border: 1px solid white;
+  border-radius: 30px;
+}
+
 .questions-changer {
   display: inline-block;
   position: absolute;
@@ -98,6 +113,23 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.questions-changer-end {
+  display: inline-block;
+  position: absolute;
+  top: 20%;
+  left: 45%;
+  right: 5%;
+  font-size: 30px;
+  border: 3px solid rgb(0, 0, 0);
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 
 .left-button {
